@@ -13,11 +13,11 @@ const countIt = () => {
           storage[letter] = 1;
         }
       })
-      finialCount = '';
+      finalCount = '';
   for (let items in storage){
-    finialCount += items + ':' + storage[items] + ' ';
+    finalCount += items + ':' + storage[items] + ' ';
   }
-  document.getElementById("finial").innerHTML = finialCount;
+  document.getElementById("final").innerHTML = finalCount;
   document.getElementById("input").value = "";
   }
   
